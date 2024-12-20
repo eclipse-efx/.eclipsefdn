@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-efx') {
+orgs.newOrg('technology.efxclipse', 'eclipse-efx') {
   settings+: {
     description: "",
     name: "Eclipse e(fx)clipse™",
