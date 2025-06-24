@@ -110,6 +110,7 @@ orgs.newOrg('technology.efxclipse', 'eclipse-efx') {
       default_branch: "master",
       delete_branch_on_merge: false,
       dependabot_security_updates_enabled: true,
+      has_discussions: true,
       web_commit_signoff_required: false,
       workflows+: {
         default_workflow_permissions: "write",
